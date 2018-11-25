@@ -39,5 +39,6 @@ endif
 
 # Board
 TARGET_BOARD_PLATFORM := tegra
+TARGET_NO_BOOTLOADER := true
 
 include device/nvidia/tegra-common/BoardConfigTegra.mk
