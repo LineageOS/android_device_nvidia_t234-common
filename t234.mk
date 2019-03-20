@@ -16,6 +16,9 @@
 
 TARGET_TEGRA_VERSION         := t234
 
+# System properties
+include device/nvidia/t234-common/properties.mk
+
 PRODUCT_PACKAGES += \
     init.t23x.rc \
     init.t23x_common.rc \
