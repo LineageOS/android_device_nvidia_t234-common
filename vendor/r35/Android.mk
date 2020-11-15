@@ -1,4 +1,3 @@
-#
 # Copyright (C) 2022 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,17 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
 
-TARGET_TEGRA_VERSION         := t234
-TARGET_TEGRA_FIRMWARE_BRANCH ?= r35
+LOCAL_PATH := $(call my-dir)
 
-# System properties
-include device/nvidia/t234-common/properties.mk
-
-PRODUCT_PACKAGES += \
-    init.t23x.rc \
-    init.t23x_common.rc \
-    ueventd.t234ref.rc
-
-include device/nvidia/tegra-common/tegra.mk
+include $(call all-makefiles-under,$(LOCAL_PATH))
