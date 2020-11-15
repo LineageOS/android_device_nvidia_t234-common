@@ -1,4 +1,3 @@
-#
 # Copyright (C) 2022 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,17 +11,32 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
 
-TARGET_TEGRA_VERSION         := t234
-TARGET_TEGRA_FIRMWARE_BRANCH ?= r35
+LOCAL_PATH := device/nvidia/t234-common/vendor
 
-# System properties
-include device/nvidia/t234-common/properties.mk
-
+# GPU firmware
 PRODUCT_PACKAGES += \
-    init.t23x.rc \
-    init.t23x_common.rc \
-    ueventd.t234ref.rc
+    acr-gsp.data.encrypt.bin.prod \
+    acr-gsp.manifest.encrypt.bin.out.bin.prod \
+    acr-gsp.text.encrypt.bin.prod \
+    fecs \
+    fecs_pkc_sig \
+    gpccs \
+    gpccs_pkc_sig \
+    gpmu_ucode_next_prod_desc \
+    gpmu_ucode_next_prod_image \
+    NETA_img \
+    NETB_img \
+    NETC_img \
+    NETD_img \
+    pmu_pkc_prod_sig
 
-include device/nvidia/tegra-common/tegra.mk
+# General firmware
+PRODUCT_PACKAGES += \
+    nvhost_nvdec050_desc_prod \
+    nvhost_nvdla020 \
+    nvhost_nvenc080 \
+    nvhost_nvjpg013 \
+    nvhost_ofa012 \
+    nvhost_vic042 \
+    nvpva_020

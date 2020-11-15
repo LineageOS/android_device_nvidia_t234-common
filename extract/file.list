@@ -1,0 +1,46 @@
+# Firmware
+l4t-t194	drivers/lib/firmware/ga10b/acr-gsp.data.encrypt.bin.prod		t234/r35/firmware/ga10b/acr-gsp.data.encrypt.bin.prod
+l4t-t194	drivers/lib/firmware/ga10b/acr-gsp.manifest.encrypt.bin.out.bin.prod	t234/r35/firmware/ga10b/acr-gsp.manifest.encrypt.bin.out.bin.prod
+l4t-t194	drivers/lib/firmware/ga10b/acr-gsp.text.encrypt.bin.prod		t234/r35/firmware/ga10b/acr-gsp.text.encrypt.bin.prod
+l4t-t194	drivers/lib/firmware/ga10b/fecs.bin					t234/r35/firmware/ga10b/fecs.bin
+l4t-t194	drivers/lib/firmware/ga10b/fecs_pkc_sig.bin				t234/r35/firmware/ga10b/fecs_pkc_sig.bin
+l4t-t194	drivers/lib/firmware/ga10b/gpccs.bin					t234/r35/firmware/ga10b/gpccs.bin
+l4t-t194	drivers/lib/firmware/ga10b/gpccs_pkc_sig.bin				t234/r35/firmware/ga10b/gpccs_pkc_sig.bin
+l4t-t194	drivers/lib/firmware/ga10b/gpmu_ucode_next_prod_desc.bin		t234/r35/firmware/ga10b/gpmu_ucode_next_prod_desc.bin
+l4t-t194	drivers/lib/firmware/ga10b/gpmu_ucode_next_prod_image.bin		t234/r35/firmware/ga10b/gpmu_ucode_next_prod_image.bin
+l4t-t194	drivers/lib/firmware/ga10b/NETA_img.bin					t234/r35/firmware/ga10b/NETA_img.bin
+l4t-t194	drivers/lib/firmware/ga10b/NETB_img.bin					t234/r35/firmware/ga10b/NETB_img.bin
+l4t-t194	drivers/lib/firmware/ga10b/NETC_img.bin					t234/r35/firmware/ga10b/NETC_img.bin
+l4t-t194	drivers/lib/firmware/ga10b/NETD_img.bin					t234/r35/firmware/ga10b/NETD_img.bin
+l4t-t194	drivers/lib/firmware/ga10b/pmu_pkc_prod_sig.bin				t234/r35/firmware/ga10b/pmu_pkc_prod_sig.bin
+l4t-t194	drivers/lib/firmware/tegra23x/nvhost_nvdec050_desc_prod.bin		t234/r35/firmware/tegra23x/nvhost_nvdec050_desc_prod.bin
+l4t-t194	drivers/lib/firmware/tegra23x/nvhost_nvenc080.fw			t234/r35/firmware/tegra23x/nvhost_nvenc080.fw
+l4t-t194	drivers/lib/firmware/tegra23x/nvhost_nvjpg013.fw			t234/r35/firmware/tegra23x/nvhost_nvjpg013.fw
+l4t-t194	drivers/lib/firmware/nvhost_ofa012.fw					t234/r35/firmware/nvhost_ofa012.fw
+l4t-t194	drivers/lib/firmware/nvhost_nvdla020.fw					t234/r35/firmware/nvhost_nvdla020.fw
+l4t-t194	drivers/lib/firmware/nvhost_vic042.fw					t234/r35/firmware/nvhost_vic042.fw
+l4t-t194	drivers/lib/firmware/nvpva_020.fw					t234/r35/firmware/nvpva_020.fw
+
+# Bootloader
+l4t-t194	Linux_for_Tegra/bootloader/adsp-fw.bin				t234/r35/bootloader/adsp-fw.bin
+l4t-t194	Linux_for_Tegra/bootloader/applet_t234.bin			t234/r35/bootloader/applet_t234.bin
+l4t-t194	Linux_for_Tegra/bootloader/BOOTAA64.efi				t234/r35/bootloader/BOOTAA64.efi
+l4t-t194	Linux_for_Tegra/bootloader/bpmp_t234-TE950M-A1_prod.bin		t234/r35/bootloader/bpmp_t234-TE950M-A1_prod.bin
+l4t-t194	Linux_for_Tegra/bootloader/bpmp_t234-TE990M-A1_prod.bin		t234/r35/bootloader/bpmp_t234-TE990M-A1_prod.bin
+l4t-t194	Linux_for_Tegra/bootloader/camera-rtcpu-t234-rce.img		t234/r35/bootloader/camera-rtcpu-t234-rce.img
+l4t-t194	Linux_for_Tegra/bootloader/display-t234-dce.bin			t234/r35/bootloader/display-t234-dce.bin
+l4t-t194	Linux_for_Tegra/bootloader/eks_t234.img				t234/r35/bootloader/eks.img
+l4t-t194	Linux_for_Tegra/bootloader/mb1_t234_prod.bin			t234/r35/bootloader/mb1_t234_prod.bin
+l4t-t194	Linux_for_Tegra/bootloader/mb2_t234.bin				t234/r35/bootloader/mb2_t234.bin
+l4t-t194	Linux_for_Tegra/bootloader/mb2rf_t234.bin			t234/r35/bootloader/mb2rf_t234.bin
+l4t-t194	Linux_for_Tegra/bootloader/mce_flash_o10_cr_prod.bin		t234/r35/bootloader/mce_flash_o10_cr_prod.bin
+l4t-t194	Linux_for_Tegra/bootloader/nvdec_t234_prod.fw			t234/r35/bootloader/nvdec_t234_prod.fw
+l4t-t194	Linux_for_Tegra/bootloader/nvtboot_cpurf_t234.bin		t234/r35/bootloader/nvtboot_cpurf_t234.bin
+l4t-t194	Linux_for_Tegra/bootloader/psc_bl1_t234_prod.bin		t234/r35/bootloader/psc_bl1_t234_prod.bin
+l4t-t194	Linux_for_Tegra/bootloader/psc_rf_t234_prod.bin			t234/r35/bootloader/psc_rf_t234_prod.bin
+l4t-t194	Linux_for_Tegra/bootloader/pscfw_t234_prod.bin			t234/r35/bootloader/pscfw_t234_prod.bin
+l4t-t194	Linux_for_Tegra/bootloader/sc7_t234_prod.bin			t234/r35/bootloader/sc7_t234_prod.bin
+l4t-t194	Linux_for_Tegra/bootloader/spe_t234.bin				t234/r35/bootloader/spe_t234.bin
+l4t-t194	Linux_for_Tegra/bootloader/tos-optee_t234.img			t234/r35/bootloader/tos-optee_t234.img
+l4t-t194	Linux_for_Tegra/bootloader/uefi_jetson.bin			t234/r35/bootloader/uefi_jetson.bin
+l4t-t194	Linux_for_Tegra/bootloader/xusb_t234_prod.bin			t234/r35/bootloader/xusb_t234_prod.bin
