@@ -1,3 +1,4 @@
+# R35
 # Firmware
 l4t-t194	drivers/lib/firmware/ga10b/acr-gsp.data.encrypt.bin.prod		firmware/ga10b/
 l4t-t194	drivers/lib/firmware/ga10b/acr-gsp.manifest.encrypt.bin.out.bin.prod	firmware/ga10b/
@@ -44,3 +45,57 @@ l4t-t194	bootloader/spe_t234.bin				bootloader/
 l4t-t194	bootloader/tos-optee_t234.img			bootloader/
 l4t-t194	bootloader/uefi_jetson.bin			bootloader/
 l4t-t194	bootloader/xusb_t234_prod.bin			bootloader/
+
+# R36
+# Firmware
+l4t-t234	drivers/lib/firmware/nvidia/ga10b/acr-gsp.data.encrypt.bin.prod				firmware/ga10b/
+l4t-t234	drivers/lib/firmware/nvidia/ga10b/acr-gsp.manifest.encrypt.bin.out.bin.prod		firmware/ga10b/
+l4t-t234	drivers/lib/firmware/nvidia/ga10b/acr-gsp.text.encrypt.bin.prod				firmware/ga10b/
+l4t-t234	drivers/lib/firmware/nvidia/ga10b/fecs_encrypt_prod.bin					firmware/ga10b/
+l4t-t234	drivers/lib/firmware/nvidia/ga10b/fecs_pkc_sig_encrypt.bin				firmware/ga10b/
+l4t-t234	drivers/lib/firmware/nvidia/ga10b/gpccs_encrypt_prod.bin				firmware/ga10b/
+l4t-t234	drivers/lib/firmware/nvidia/ga10b/gpccs_pkc_sig_encrypt.bin				firmware/ga10b/
+l4t-t234	drivers/lib/firmware/nvidia/ga10b/gpmu_ucode_next_prod_desc.bin				firmware/ga10b/
+l4t-t234	drivers/lib/firmware/nvidia/ga10b/gpmu_ucode_next_prod_image.bin			firmware/ga10b/
+l4t-t234	drivers/lib/firmware/nvidia/ga10b/NETA_img_prod_encrypted.bin				firmware/ga10b/
+l4t-t234	drivers/lib/firmware/nvidia/ga10b/NETB_img_prod_encrypted.bin				firmware/ga10b/
+l4t-t234	drivers/lib/firmware/nvidia/ga10b/NETC_img_prod_encrypted.bin				firmware/ga10b/
+l4t-t234	drivers/lib/firmware/nvidia/ga10b/NETD_img_prod_encrypted.bin				firmware/ga10b/
+l4t-t234	drivers/lib/firmware/nvidia/ga10b/pmu_pkc_prod_sig.bin					firmware/ga10b/
+l4t-t234	drivers/lib/firmware/nvidia/ga10b/safety-scheduler.data.encrypt.bin.prod		firmware/ga10b/
+l4t-t234	drivers/lib/firmware/nvidia/ga10b/safety-scheduler.manifest.encrypt.bin.out.bin.prod	firmware/ga10b/
+l4t-t234	drivers/lib/firmware/nvidia/ga10b/safety-scheduler.text.encrypt.bin.prod		firmware/ga10b/
+l4t-t234	drivers/lib/firmware/tegra23x/nvhost_nvdec050_desc_prod.bin				firmware/tegra23x/
+l4t-t234	drivers/lib/firmware/tegra23x/nvhost_nvenc080.fw					firmware/tegra23x/
+l4t-t234	drivers/lib/firmware/tegra23x/nvhost_nvjpg013.fw					firmware/tegra23x/
+l4t-t234	drivers/lib/firmware/tegra23x/nvhost_tsec_desc.fw					firmware/tegra23x/
+l4t-t234	drivers/lib/firmware/tegra23x/nvhost_tsec_riscv.fw					firmware/tegra23x/
+l4t-t234	drivers/lib/firmware/nvhost_ofa012.fw							firmware/
+l4t-t234	drivers/lib/firmware/nvhost_nvdla020.fw							firmware/
+l4t-t234	drivers/lib/firmware/nvhost_vic042.fw							firmware/
+l4t-t234	drivers/lib/firmware/nvpva_020.fw							firmware/
+
+# Bootloader
+l4t-t234	bootloader/adsp-fw.bin				bootloader/
+l4t-t234	bootloader/applet_t234.bin			bootloader/
+l4t-t234	bootloader/BOOTAA64.efi				bootloader/
+l4t-t234	bootloader/bpmp_t234-TE950M-A1_prod.bin		bootloader/
+l4t-t234	bootloader/bpmp_t234-TE990M-A1_prod.bin		bootloader/
+l4t-t234	bootloader/camera-rtcpu-t234-rce.img		bootloader/
+l4t-t234	bootloader/display-t234-dce.bin			bootloader/
+l4t-t234	bootloader/eks_t234.img				bootloader/eks.img
+l4t-t234	bootloader/mb1_t234_prod.bin			bootloader/
+l4t-t234	bootloader/mb2_t234.bin				bootloader/
+l4t-t234	bootloader/mb2rf_t234.bin			bootloader/
+l4t-t234	bootloader/mce_flash_o10_cr_prod.bin		bootloader/
+l4t-t234	bootloader/nvdec_t234_prod.fw			bootloader/
+l4t-t234	bootloader/nvpva_020.fw				bootloader/
+l4t-t234	bootloader/psc_bl1_t234_prod.bin		bootloader/
+l4t-t234	bootloader/psc_rf_t234_prod.bin			bootloader/
+l4t-t234	bootloader/pscfw_t234_prod.bin			bootloader/
+l4t-t234	bootloader/sc7_t234_prod.bin			bootloader/
+l4t-t234	bootloader/spe_t234.bin				bootloader/
+l4t-t234	bootloader/tos-optee_t234.img			bootloader/
+l4t-t234	bootloader/tsec_t234.bin			bootloader/
+l4t-t234	bootloader/uefi_jetson.bin			bootloader/
+l4t-t234	bootloader/xusb_t234_prod.bin			bootloader/
