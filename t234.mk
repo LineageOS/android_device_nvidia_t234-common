@@ -15,7 +15,7 @@
 #
 
 TARGET_TEGRA_VERSION         := t234
-TARGET_TEGRA_FIRMWARE_BRANCH ?= r35
+TARGET_TEGRA_FIRMWARE_BRANCH ?= r36
 
 # System properties
 include device/nvidia/t234-common/properties.mk
