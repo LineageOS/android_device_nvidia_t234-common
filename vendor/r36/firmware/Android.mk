@@ -44,38 +44,8 @@ LOCAL_MODULE_OWNER         := nvidia
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE               := fecs
-LOCAL_SRC_FILES            := $(T234_FIRMWARE_PATH)/ga10b/fecs.bin
-LOCAL_MODULE_SUFFIX        := .bin
-LOCAL_MODULE_CLASS         := ETC
-LOCAL_MODULE_PATH          := $(TARGET_OUT_VENDOR)/firmware/nvidia/ga10b
-LOCAL_MODULE_TAGS          := optional
-LOCAL_MODULE_OWNER         := nvidia
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE               := fecs_encrypt_dbg
-LOCAL_SRC_FILES            := $(T234_FIRMWARE_PATH)/ga10b/fecs_encrypt_dbg.bin
-LOCAL_MODULE_SUFFIX        := .bin
-LOCAL_MODULE_CLASS         := ETC
-LOCAL_MODULE_PATH          := $(TARGET_OUT_VENDOR)/firmware/nvidia/ga10b
-LOCAL_MODULE_TAGS          := optional
-LOCAL_MODULE_OWNER         := nvidia
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE               := fecs_encrypt_prod
 LOCAL_SRC_FILES            := $(T234_FIRMWARE_PATH)/ga10b/fecs_encrypt_prod.bin
-LOCAL_MODULE_SUFFIX        := .bin
-LOCAL_MODULE_CLASS         := ETC
-LOCAL_MODULE_PATH          := $(TARGET_OUT_VENDOR)/firmware/nvidia/ga10b
-LOCAL_MODULE_TAGS          := optional
-LOCAL_MODULE_OWNER         := nvidia
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE               := fecs_pkc_sig
-LOCAL_SRC_FILES            := $(T234_FIRMWARE_PATH)/ga10b/fecs_pkc_sig.bin
 LOCAL_MODULE_SUFFIX        := .bin
 LOCAL_MODULE_CLASS         := ETC
 LOCAL_MODULE_PATH          := $(TARGET_OUT_VENDOR)/firmware/nvidia/ga10b
@@ -94,38 +64,8 @@ LOCAL_MODULE_OWNER         := nvidia
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE               := gpccs
-LOCAL_SRC_FILES            := $(T234_FIRMWARE_PATH)/ga10b/gpccs.bin
-LOCAL_MODULE_SUFFIX        := .bin
-LOCAL_MODULE_CLASS         := ETC
-LOCAL_MODULE_PATH          := $(TARGET_OUT_VENDOR)/firmware/nvidia/ga10b
-LOCAL_MODULE_TAGS          := optional
-LOCAL_MODULE_OWNER         := nvidia
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE               := gpccs_encrypt_dbg
-LOCAL_SRC_FILES            := $(T234_FIRMWARE_PATH)/ga10b/gpccs_encrypt_dbg.bin
-LOCAL_MODULE_SUFFIX        := .bin
-LOCAL_MODULE_CLASS         := ETC
-LOCAL_MODULE_PATH          := $(TARGET_OUT_VENDOR)/firmware/nvidia/ga10b
-LOCAL_MODULE_TAGS          := optional
-LOCAL_MODULE_OWNER         := nvidia
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE               := gpccs_encrypt_prod
 LOCAL_SRC_FILES            := $(T234_FIRMWARE_PATH)/ga10b/gpccs_encrypt_prod.bin
-LOCAL_MODULE_SUFFIX        := .bin
-LOCAL_MODULE_CLASS         := ETC
-LOCAL_MODULE_PATH          := $(TARGET_OUT_VENDOR)/firmware/nvidia/ga10b
-LOCAL_MODULE_TAGS          := optional
-LOCAL_MODULE_OWNER         := nvidia
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE               := gpccs_pkc_sig
-LOCAL_SRC_FILES            := $(T234_FIRMWARE_PATH)/ga10b/gpccs_pkc_sig.bin
 LOCAL_MODULE_SUFFIX        := .bin
 LOCAL_MODULE_CLASS         := ETC
 LOCAL_MODULE_PATH          := $(TARGET_OUT_VENDOR)/firmware/nvidia/ga10b
@@ -164,48 +104,8 @@ LOCAL_MODULE_OWNER         := nvidia
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE               := NETA_img
-LOCAL_SRC_FILES            := $(T234_FIRMWARE_PATH)/ga10b/NETA_img.bin
-LOCAL_MODULE_SUFFIX        := .bin
-LOCAL_MODULE_CLASS         := ETC
-LOCAL_MODULE_PATH          := $(TARGET_OUT_VENDOR)/firmware/nvidia/ga10b
-LOCAL_MODULE_TAGS          := optional
-LOCAL_MODULE_OWNER         := nvidia
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE               := NETA_img_debug_encrypted
-LOCAL_SRC_FILES            := $(T234_FIRMWARE_PATH)/ga10b/NETA_img_debug_encrypted.bin
-LOCAL_MODULE_SUFFIX        := .bin
-LOCAL_MODULE_CLASS         := ETC
-LOCAL_MODULE_PATH          := $(TARGET_OUT_VENDOR)/firmware/nvidia/ga10b
-LOCAL_MODULE_TAGS          := optional
-LOCAL_MODULE_OWNER         := nvidia
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE               := NETA_img_prod_encrypted
 LOCAL_SRC_FILES            := $(T234_FIRMWARE_PATH)/ga10b/NETA_img_prod_encrypted.bin
-LOCAL_MODULE_SUFFIX        := .bin
-LOCAL_MODULE_CLASS         := ETC
-LOCAL_MODULE_PATH          := $(TARGET_OUT_VENDOR)/firmware/nvidia/ga10b
-LOCAL_MODULE_TAGS          := optional
-LOCAL_MODULE_OWNER         := nvidia
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE               := NETB_img
-LOCAL_SRC_FILES            := $(T234_FIRMWARE_PATH)/ga10b/NETB_img.bin
-LOCAL_MODULE_SUFFIX        := .bin
-LOCAL_MODULE_CLASS         := ETC
-LOCAL_MODULE_PATH          := $(TARGET_OUT_VENDOR)/firmware/nvidia/ga10b
-LOCAL_MODULE_TAGS          := optional
-LOCAL_MODULE_OWNER         := nvidia
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE               := NETB_img_debug_encrypted
-LOCAL_SRC_FILES            := $(T234_FIRMWARE_PATH)/ga10b/NETB_img_debug_encrypted.bin
 LOCAL_MODULE_SUFFIX        := .bin
 LOCAL_MODULE_CLASS         := ETC
 LOCAL_MODULE_PATH          := $(TARGET_OUT_VENDOR)/firmware/nvidia/ga10b
@@ -224,48 +124,8 @@ LOCAL_MODULE_OWNER         := nvidia
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE               := NETC_img
-LOCAL_SRC_FILES            := $(T234_FIRMWARE_PATH)/ga10b/NETC_img.bin
-LOCAL_MODULE_SUFFIX        := .bin
-LOCAL_MODULE_CLASS         := ETC
-LOCAL_MODULE_PATH          := $(TARGET_OUT_VENDOR)/firmware/nvidia/ga10b
-LOCAL_MODULE_TAGS          := optional
-LOCAL_MODULE_OWNER         := nvidia
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE               := NETC_img_debug_encrypted
-LOCAL_SRC_FILES            := $(T234_FIRMWARE_PATH)/ga10b/NETC_img_debug_encrypted.bin
-LOCAL_MODULE_SUFFIX        := .bin
-LOCAL_MODULE_CLASS         := ETC
-LOCAL_MODULE_PATH          := $(TARGET_OUT_VENDOR)/firmware/nvidia/ga10b
-LOCAL_MODULE_TAGS          := optional
-LOCAL_MODULE_OWNER         := nvidia
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE               := NETC_img_prod_encrypted
 LOCAL_SRC_FILES            := $(T234_FIRMWARE_PATH)/ga10b/NETC_img_prod_encrypted.bin
-LOCAL_MODULE_SUFFIX        := .bin
-LOCAL_MODULE_CLASS         := ETC
-LOCAL_MODULE_PATH          := $(TARGET_OUT_VENDOR)/firmware/nvidia/ga10b
-LOCAL_MODULE_TAGS          := optional
-LOCAL_MODULE_OWNER         := nvidia
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE               := NETD_img
-LOCAL_SRC_FILES            := $(T234_FIRMWARE_PATH)/ga10b/NETD_img.bin
-LOCAL_MODULE_SUFFIX        := .bin
-LOCAL_MODULE_CLASS         := ETC
-LOCAL_MODULE_PATH          := $(TARGET_OUT_VENDOR)/firmware/nvidia/ga10b
-LOCAL_MODULE_TAGS          := optional
-LOCAL_MODULE_OWNER         := nvidia
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE               := NETD_img_debug_encrypted
-LOCAL_SRC_FILES            := $(T234_FIRMWARE_PATH)/ga10b/NETD_img_debug_encrypted.bin
 LOCAL_MODULE_SUFFIX        := .bin
 LOCAL_MODULE_CLASS         := ETC
 LOCAL_MODULE_PATH          := $(TARGET_OUT_VENDOR)/firmware/nvidia/ga10b

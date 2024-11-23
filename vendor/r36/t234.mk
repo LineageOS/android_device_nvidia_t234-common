@@ -19,29 +19,15 @@ PRODUCT_PACKAGES += \
     acr-gsp.data.encrypt.bin.prod \
     acr-gsp.manifest.encrypt.bin.out.bin.prod \
     acr-gsp.text.encrypt.bin.prod \
-    fecs \
-    fecs_encrypt_dbg \
     fecs_encrypt_prod \
-    fecs_pkc_sig \
     fecs_pkc_sig_encrypt \
-    gpccs \
-    gpccs_encrypt_dbg \
     gpccs_encrypt_prod \
-    gpccs_pkc_sig \
     gpccs_pkc_sig_encrypt \
     gpmu_ucode_next_prod_desc \
     gpmu_ucode_next_prod_image \
-    NETA_img \
-    NETA_img_debug_encrypted \
     NETA_img_prod_encrypted \
-    NETB_img \
-    NETB_img_debug_encrypted \
     NETB_img_prod_encrypted \
-    NETC_img \
-    NETC_img_debug_encrypted \
     NETC_img_prod_encrypted \
-    NETD_img \
-    NETD_img_debug_encrypted \
     NETD_img_prod_encrypted \
     pmu_pkc_prod_sig \
     safety-scheduler.data.encrypt.bin.prod \
