@@ -21,9 +21,9 @@ TARGET_TEGRA_L4T_BRANCH      ?= r36
 # System properties
 include device/nvidia/t234-common/properties.mk
 
-PRODUCT_PACKAGES += \
-    init.t23x.rc \
-    init.t23x_common.rc \
-    ueventd.t234ref.rc
+PRODUCT_COPY_FILES += \
+    device/nvidia/t234-common/initfiles/init.t23x.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.t23x.rc \
+    device/nvidia/t234-common/initfiles/init.t23x_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.t23x_common.rc \
+    device/nvidia/t234-common/initfiles/ueventd.t234ref.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc
 
 include device/nvidia/tegra-common/tegra.mk
