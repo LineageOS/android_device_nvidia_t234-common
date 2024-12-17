@@ -12,11 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := device/nvidia/t234-common/vendor/linux-firmware
+DOWNSTREAM_BRANCH    := r36
+T234_DOWNSTREAM_PATH := vendor/nvidia/t234/$(DOWNSTREAM_BRANCH)/firmware
 
 # General firmware
-PRODUCT_PACKAGES += \
-    nvdec.bin \
-    nvenc.bin \
-    nvjpg.bin \
-    vic.bin
+PRODUCT_COPY_FILES += \
+    $(T234_DOWNSTREAM_PATH)/tegra23x/nvhost_nvdec050_desc_prod.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tegra234/nvdec.bin \
+    $(T234_DOWNSTREAM_PATH)/tegra23x/nvhost_nvenc080.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/tegra234/nvenc.bin \
+    $(T234_DOWNSTREAM_PATH)/tegra23x/nvhost_nvjpg013.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/tegra234/nvjpg.bin \
+    $(T234_DOWNSTREAM_PATH)/nvhost_vic042.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/tegra234/vic.bin

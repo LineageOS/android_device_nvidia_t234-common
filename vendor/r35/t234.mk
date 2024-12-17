@@ -1,4 +1,4 @@
-# Copyright (C) 2022 The LineageOS Project
+# Copyright (C) 2022-2024 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,31 +12,31 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := device/nvidia/t234-common/vendor
+T234_FIRMWARE_PATH := vendor/nvidia/t234/r35/firmware
 
 # GPU firmware
-PRODUCT_PACKAGES += \
-    acr-gsp.data.encrypt.bin.prod \
-    acr-gsp.manifest.encrypt.bin.out.bin.prod \
-    acr-gsp.text.encrypt.bin.prod \
-    fecs \
-    fecs_pkc_sig \
-    gpccs \
-    gpccs_pkc_sig \
-    gpmu_ucode_next_prod_desc \
-    gpmu_ucode_next_prod_image \
-    NETA_img \
-    NETB_img \
-    NETC_img \
-    NETD_img \
-    pmu_pkc_prod_sig
+PRODUCT_COPY_FILES += \
+    $(T234_FIRMWARE_PATH)/ga10b/acr-gsp.data.encrypt.bin.prod:$(TARGET_COPY_OUT_VENDOR)/firmware/ga10b/acr-gsp.data.encrypt.bin.prod \
+    $(T234_FIRMWARE_PATH)/ga10b/acr-gsp.manifest.encrypt.bin.out.bin.prod:$(TARGET_COPY_OUT_VENDOR)/firmware/ga10b/acr-gsp.manifest.encrypt.bin.out.bin.prod \
+    $(T234_FIRMWARE_PATH)/ga10b/acr-gsp.text.encrypt.bin.prod:$(TARGET_COPY_OUT_VENDOR)/firmware/ga10b/acr-gsp.text.encrypt.bin.prod \
+    $(T234_FIRMWARE_PATH)/ga10b/fecs.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ga10b/fecs.bin \
+    $(T234_FIRMWARE_PATH)/ga10b/fecs_pkc_sig.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ga10b/fecs_pkc_sig.bin \
+    $(T234_FIRMWARE_PATH)/ga10b/gpccs.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ga10b/gpccs.bin \
+    $(T234_FIRMWARE_PATH)/ga10b/gpccs_pkc_sig.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ga10b/gpccs_pkc_sig.bin \
+    $(T234_FIRMWARE_PATH)/ga10b/gpmu_ucode_next_prod_desc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ga10b/gpmu_ucode_next_prod_desc.bin \
+    $(T234_FIRMWARE_PATH)/ga10b/gpmu_ucode_next_prod_image.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ga10b/gpmu_ucode_next_prod_image.bin \
+    $(T234_FIRMWARE_PATH)/ga10b/NETA_img.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ga10b/NETA_img.bin \
+    $(T234_FIRMWARE_PATH)/ga10b/NETB_img.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ga10b/NETB_img.bin \
+    $(T234_FIRMWARE_PATH)/ga10b/NETC_img.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ga10b/NETC_img.bin \
+    $(T234_FIRMWARE_PATH)/ga10b/NETD_img.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ga10b/NETD_img.bin \
+    $(T234_FIRMWARE_PATH)/ga10b/pmu_pkc_prod_sig.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ga10b/pmu_pkc_prod_sig.bin
 
 # General firmware
-PRODUCT_PACKAGES += \
-    nvhost_nvdec050_desc_prod \
-    nvhost_nvdla020 \
-    nvhost_nvenc080 \
-    nvhost_nvjpg013 \
-    nvhost_ofa012 \
-    nvhost_vic042 \
-    nvpva_020
+PRODUCT_COPY_FILES += \
+    $(T234_FIRMWARE_PATH)/tegra23x/nvhost_nvdec050_desc_prod.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tegra23x/nvhost_nvdec050_desc_prod.bin \
+    $(T234_FIRMWARE_PATH)/tegra23x/nvhost_nvdla020.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/tegra23x/nvhost_nvdla020.fw \
+    $(T234_FIRMWARE_PATH)/tegra23x/nvhost_nvenc080.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/tegra23x/nvhost_nvenc080.fw \
+    $(T234_FIRMWARE_PATH)/tegra23x/nvhost_nvjpg013.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/tegra23x/nvhost_nvjpg013.fw \
+    $(T234_FIRMWARE_PATH)/nvhost_ofa012.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/nvhost_ofa012.fw \
+    $(T234_FIRMWARE_PATH)/nvhost_vic042.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/nvhost_vic042.fw \
+    $(T234_FIRMWARE_PATH)/nvpva_020.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/nvpva_020.fw
