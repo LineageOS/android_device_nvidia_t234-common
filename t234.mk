@@ -21,6 +21,9 @@ TARGET_TEGRA_L4T_BRANCH      ?= r36
 # System properties
 include device/nvidia/t234-common/properties.mk
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += device/nvidia/t234-common
+
 PRODUCT_PACKAGES += \
     init.t23x.rc \
     init.t23x_common.rc \
