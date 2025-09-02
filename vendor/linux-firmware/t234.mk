@@ -15,6 +15,26 @@
 DOWNSTREAM_BRANCH    := r36
 T234_DOWNSTREAM_PATH := vendor/nvidia/t234/$(DOWNSTREAM_BRANCH)/firmware
 
+# GPU firmware
+PRODUCT_COPY_FILES += \
+    $(T234_DOWNSTREAM_PATH)/ga10b/acr-gsp.data.encrypt.bin.prod:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/ga10b/acr-gsp.data.encrypt.bin.prod \
+    $(T234_DOWNSTREAM_PATH)/ga10b/acr-gsp.manifest.encrypt.bin.out.bin.prod:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/ga10b/acr-gsp.manifest.encrypt.bin.out.bin.prod \
+    $(T234_DOWNSTREAM_PATH)/ga10b/acr-gsp.text.encrypt.bin.prod:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/ga10b/acr-gsp.text.encrypt.bin.prod \
+    $(T234_DOWNSTREAM_PATH)/ga10b/fecs_encrypt_prod.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/ga10b/fecs_encrypt_prod.bin \
+    $(T234_DOWNSTREAM_PATH)/ga10b/fecs_pkc_sig_encrypt.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/ga10b/fecs_pkc_sig_encrypt.bin \
+    $(T234_DOWNSTREAM_PATH)/ga10b/gpccs_encrypt_prod.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/ga10b/gpccs_encrypt_prod.bin \
+    $(T234_DOWNSTREAM_PATH)/ga10b/gpccs_pkc_sig_encrypt.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/ga10b/gpccs_pkc_sig_encrypt.bin \
+    $(T234_DOWNSTREAM_PATH)/ga10b/gpmu_ucode_next_prod_desc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/ga10b/gpmu_ucode_next_prod_desc.bin \
+    $(T234_DOWNSTREAM_PATH)/ga10b/gpmu_ucode_next_prod_image.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/ga10b/gpmu_ucode_next_prod_image.bin \
+    $(T234_DOWNSTREAM_PATH)/ga10b/NETA_img_prod_encrypted.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/ga10b/NETA_img_prod_encrypted.bin \
+    $(T234_DOWNSTREAM_PATH)/ga10b/NETB_img_prod_encrypted.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/ga10b/NETB_img_prod_encrypted.bin \
+    $(T234_DOWNSTREAM_PATH)/ga10b/NETC_img_prod_encrypted.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/ga10b/NETC_img_prod_encrypted.bin \
+    $(T234_DOWNSTREAM_PATH)/ga10b/NETD_img_prod_encrypted.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/ga10b/NETD_img_prod_encrypted.bin \
+    $(T234_DOWNSTREAM_PATH)/ga10b/pmu_pkc_prod_sig.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/ga10b/pmu_pkc_prod_sig.bin \
+    $(T234_DOWNSTREAM_PATH)/ga10b/safety-scheduler.data.encrypt.bin.prod:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/ga10b/safety-scheduler.data.encrypt.bin.prod \
+    $(T234_DOWNSTREAM_PATH)/ga10b/safety-scheduler.manifest.encrypt.bin.out.bin.prod:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/ga10b/safety-scheduler.manifest.encrypt.bin.out.bin.prod \
+    $(T234_DOWNSTREAM_PATH)/ga10b/safety-scheduler.text.encrypt.bin.prod:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/ga10b/safety-scheduler.text.encrypt.bin.prod
+
 # General firmware
 PRODUCT_COPY_FILES += \
     $(T234_DOWNSTREAM_PATH)/tegra23x/nvhost_nvdec050_desc_prod.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tegra234/nvdec.bin \
