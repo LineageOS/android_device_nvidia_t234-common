@@ -23,7 +23,9 @@
                 "1344000",
                 "1420800",
                 "1497600",
-                "1510400"
+                "1574400",
+                "1651200",
+                "1728000"
             ],
             "DefaultIndex": 0,
             "ResetOnInit": true
@@ -51,7 +53,9 @@
                 "1344000",
                 "1420800",
                 "1497600",
-                "1510400"
+                "1574400",
+                "1651200",
+                "1728000"
             ],
             "DefaultIndex": 0,
             "ResetOnInit": true
@@ -122,25 +126,25 @@
             "PowerHint": "DISPLAY_CHANGE",
             "Node": "CPUCluster0MinFreq",
             "Duration": 5000,
-            "Value": "1510400"
+            "Value": "1497600"
         },
         {
             "PowerHint": "DISPLAY_CHANGE",
             "Node": "CPUCluster1MinFreq",
             "Duration": 5000,
-            "Value": "1510400"
+            "Value": "1497600"
         },
         {
             "PowerHint": "DISPLAY_UPDATE_IMMINENT",
             "Node": "CPUCluster0MinFreq",
             "Duration": 5000,
-            "Value": "1510400"
+            "Value": "1497600"
         },
         {
             "PowerHint": "DISPLAY_UPDATE_IMMINENT",
             "Node": "CPUCluster1MinFreq",
             "Duration": 5000,
-            "Value": "1510400"
+            "Value": "1497600"
         }
     ]
 }
