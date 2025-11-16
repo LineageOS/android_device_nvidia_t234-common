@@ -12,12 +12,6 @@ on boot
     write /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor schedutil
     write /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor schedutil
     write /sys/devices/system/cpu/cpu5/cpufreq/scaling_governor schedutil
-    write /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor schedutil
-    write /sys/devices/system/cpu/cpu7/cpufreq/scaling_governor schedutil
-    write /sys/devices/system/cpu/cpu8/cpufreq/scaling_governor schedutil
-    write /sys/devices/system/cpu/cpu9/cpufreq/scaling_governor schedutil
-    write /sys/devices/system/cpu/cpu10/cpufreq/scaling_governor schedutil
-    write /sys/devices/system/cpu/cpu11/cpufreq/scaling_governor schedutil
 
     chown system system /sys/module/input_cfboost/parameters/boost_freq
     chown system system /sys/module/input_cfboost/parameters/boost_gpu
@@ -49,6 +43,7 @@ on boot
 service watchdogd /sbin/watchdogd 20 160
     class core
     seclabel u:r:watchdogd:s0
+    user root
 
 on property:sys.boot_completed=1
     # Disable uevents for Android USB state and VBUS extcon state while suspending.
