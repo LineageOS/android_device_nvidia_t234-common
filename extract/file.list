@@ -17,10 +17,7 @@ l4t-t194	drivers/lib/firmware/ga10b/pmu_pkc_prod_sig.bin				firmware/ga10b/
 l4t-t194	drivers/lib/firmware/tegra23x/nvhost_nvdec050_desc_prod.bin		firmware/tegra23x/
 l4t-t194	drivers/lib/firmware/tegra23x/nvhost_nvenc080.fw			firmware/tegra23x/
 l4t-t194	drivers/lib/firmware/tegra23x/nvhost_nvjpg013.fw			firmware/tegra23x/
-l4t-t194	drivers/lib/firmware/nvhost_ofa012.fw					firmware/
-l4t-t194	drivers/lib/firmware/nvhost_nvdla020.fw					firmware/
 l4t-t194	drivers/lib/firmware/nvhost_vic042.fw					firmware/
-l4t-t194	drivers/lib/firmware/nvpva_020.fw					firmware/
 
 # Bootloader
 l4t-t194	bootloader/adsp-fw.bin				bootloader/
@@ -69,12 +66,7 @@ l4t-t234	drivers/lib/firmware/nvidia/ga10b/safety-scheduler.text.encrypt.bin.pro
 l4t-t234	drivers/lib/firmware/tegra23x/nvhost_nvdec050_desc_prod.bin				firmware/tegra23x/
 l4t-t234	drivers/lib/firmware/tegra23x/nvhost_nvenc080.fw					firmware/tegra23x/
 l4t-t234	drivers/lib/firmware/tegra23x/nvhost_nvjpg013.fw					firmware/tegra23x/
-l4t-t234	drivers/lib/firmware/tegra23x/nvhost_tsec_desc.fw					firmware/tegra23x/
-l4t-t234	drivers/lib/firmware/tegra23x/nvhost_tsec_riscv.fw					firmware/tegra23x/
-l4t-t234	drivers/lib/firmware/nvhost_ofa012.fw							firmware/
-l4t-t234	drivers/lib/firmware/nvhost_nvdla020.fw							firmware/
 l4t-t234	drivers/lib/firmware/nvhost_vic042.fw							firmware/
-l4t-t234	drivers/lib/firmware/nvpva_020.fw							firmware/
 
 # Bootloader
 l4t-t234	bootloader/adsp-fw.bin				bootloader/
