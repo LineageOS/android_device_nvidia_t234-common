@@ -27,6 +27,7 @@ l4t-t194	bootloader/adsp-fw.bin				bootloader/
 l4t-t194	bootloader/applet_t234.bin			bootloader/
 l4t-t194	bootloader/BOOTAA64.efi				bootloader/
 l4t-t194	bootloader/bpmp_t234-TE950M-A1_prod.bin		bootloader/
+l4t-t194	bootloader/bpmp_t234-TE980M-A1_prod.bin		bootloader/
 l4t-t194	bootloader/bpmp_t234-TE990M-A1_prod.bin		bootloader/
 l4t-t194	bootloader/camera-rtcpu-t234-rce.img		bootloader/
 l4t-t194	bootloader/display-t234-dce.bin			bootloader/
@@ -80,6 +81,7 @@ l4t-t234	bootloader/adsp-fw.bin				bootloader/
 l4t-t234	bootloader/applet_t234.bin			bootloader/
 l4t-t234	bootloader/BOOTAA64.efi				bootloader/
 l4t-t234	bootloader/bpmp_t234-TE950M-A1_prod.bin		bootloader/
+l4t-t234	bootloader/bpmp_t234-TE980M-A1_prod.bin		bootloader/
 l4t-t234	bootloader/bpmp_t234-TE990M-A1_prod.bin		bootloader/
 l4t-t234	bootloader/camera-rtcpu-t234-rce.img		bootloader/
 l4t-t234	bootloader/display-t234-dce.bin			bootloader/
