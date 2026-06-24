@@ -145,6 +145,18 @@
             "Node": "CPUCluster1MinFreq",
             "Duration": 5000,
             "Value": "1497600"
+        },
+        {
+            "PowerHint": "FIXED_PERFORMANCE",
+            "Node": "CPUCluster0MinFreq",
+            "Duration": 0,
+            "Value": "1728000"
+        },
+        {
+            "PowerHint": "FIXED_PERFORMANCE",
+            "Node": "CPUCluster1MinFreq",
+            "Duration": 0,
+            "Value": "1728000"
         }
     ]
 }
